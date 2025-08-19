@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Great+Vibes&display=swap');
+
+body {
+     font-family: 'Playfair Display', serif;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #fdf6e3;
+  filter: sepia(10%) contrast(105%);
+  background-image: url("fundo.png");
+
+  }
+  html, body {
+  margin: 0;
+  padding: 0;
+}
+
+ 
+  .h1EP {
+    text-align: left;
+    padding: 15px 15px;
+    color: #F5E6CC;
+    
+  }
+  
+
+  header {
+    background-color: #800020;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+   
+  }
+  
+  
+  nav {
+  
+    padding: 5px 0;
+  margin-top: 5px;
+        display: flex;
+        align-items: center;
+         justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #F5E6CC;
+   font-size: 14px; 
+  line-height: 1; 
+  padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+        text-transform: uppercase;
+  }
+  
+  nav a:hover {
+    color:  #E1A95F;
+     text-decoration: underline;
+        font-size: 18px;
+  }
+  
+
+  main {
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  
+
+  article {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  
+  article h3 {
+    font-family: 'Times New Roman', serif;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #800020;
+    color: #F5E6CC;
+    margin-top: 20px;
+    width: 100%;
+    
+  }
+  IMG {
+    margin: 0 auto;
+  display: block;
+    width: 600px;
+    height: 600px;
+  }
+  
+  .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h3 {
+      font-family: 'Times New Roman', serif;
+      border-bottom: 2px solid #000;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    .card-content p {
+      margin: 0;
+      color: #333;
+      line-height: 1.5em;
+    }
+    
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  font-family: 'Times New Roman', serif;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  margin: 0;
+  color: #333;
+  line-height: 1.5em;
+}
+    video {
+      width: 100%;
+      height: 200px;
+    }
+
+ .mapa{
+  width: 500px;    
+  height: 350px;   
+  float: right;     
+  margin-left: 20px; 
+ }
+.imghistoria{
+    width: 400px;    
+  height: 350px; 
+  border-radius: 0% 10% 0% 10%;
+  float: left;   
+}
+.BLOCO {
+  text-align: center;
+}
+p{
+  text-align: right;
+}
+.linha-do-tempo {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 60%;         /* linha menor que o container */
+}
+
+.linha-do-tempo::after {
+  content: '';
+  position: absolute;
+  width: 3px;          /* linha mais fina */
+  background-color: black;
+  top:100px;           /* começa um pouco abaixo */
+  bottom: 10px;        /* termina um pouco acima */
+  left: 50%;
+  margin-left: -1.5px;
+ 
+}
+
+.evento {
+  padding: 15px;
+  position: relative;
+  width: 30%;
+  margin-top: 50px;
+}
+
+.esquerda {
+  left: 0;
+  text-align: right;
+}
+
+.direita {
+  left: 55%;
+  text-align: left;
+}
+
+.conteudo {
+   background: none;    /* sem balões */
+  padding: 0;
+}
+.secao {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  
+}
+
+.imagem {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("fotomulhesia.jpg"); 
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.texto {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(34, 85, 34, 0.7); /* verde com transparência */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: "Georgia", serif;
+  text-align: center;
+}
+
+.capa {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.capainicio {
+  width: 100%;
+  height: 250px;
+  display: block;
+  object-fit: cover;
+}
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+  .destaquessemana {
+    text-align: center;
+ color: #800020;
+   
+  }
+    .bemvindo{
+      color:#800020 ;
+      
+    }
+    h2 {
+      color: #800020 ;;
+    }
+
+.p-curiosidades{
+  text-align: center;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+  .h2curiosidades{
+    text-align: center;
+    color: #fff;
+  }
+  .artigo-historico {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  color: #333;
+}
+
+.titulo-artigo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.secao-artigo {
+  margin-bottom: 15px;
+}
+
+.subtitulo-artigo {
+  margin-bottom: 8px;
+}
+
+.paragrafo-artigo {
+  margin-bottom: 10px;
+}
+
+.lista-artigo {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.destaque-artigo {
+  font-weight: bold;
+}
+.cultura-anos40 {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  color: #333;
+}
+
+.titulo-cultura {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.secao-cultura {
+  margin-bottom: 15px;
+}
+
+.subtitulo-cultura {
+  margin-bottom: 8px;
+}
+
+.paragrafo-cultura {
+  margin-bottom: 10px;
+}
+
+.destaque-cultura {
+  font-weight: bold;
+}
